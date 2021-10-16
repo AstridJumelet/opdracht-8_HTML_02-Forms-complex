@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Astrids eerste website: daar gaan we dan.... contact! </title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<body>
+    <header>
+        <h1>AND SO IT BEGINS!</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Mijn eerste pagina</a></li>
+            <li><a href="About.html">Over mij</a></li>
+            <li><a href="Contact.html">Aan tafel!</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Aan tafel!</h2>
+    </main>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            Ik ben altijd dol op lekker eten en altijd op zoek naar recepten. <br>
+            Wil je met mij en andere bezoekers je favoriete recept delen?<br>
+            Leuk! Laat hieronder je gegevens achter.
+            </p>
+        
+        <p>
+            <label>Naam</label>
+            <input type="text" name="naam" size="50"/>
+        </p>
+        <p>
+            <label>Emailadres</label>
+            <input type="email" name="emailadres" size="50"/>
+        </p>  
+        <p>
+            <label>Telefoonnummer</label>
+            <input type="tel" name="telefoonnummer" size="50"/>
+        </p> 
+        <p>
+            <label>Leeftijd </label>
+            <input type="text" name="leeftijd" size="50"/> 
+        </p>  
+        <p>
+            <label>Geboortedatum</label>
+            <input type="date" name="geboortedatum" size="50"/>
+        </p>   
+        <p>
+            <label>Geslacht</label>
+            <input type="radio" name="geslacht" value="man"/>Man
+            <input type="radio" name="geslacht" value="vrouw"/>Vrouw
+        </p>
+        <p>
+            <label>Favoriete keuken</label>
+            <input type="checkbox" name="keuken" value="Frans"/>Frans
+            <input type="checkbox" name="keuken" value="Italiaans"/>Italiaans
+            <input type="checkbox" name="keuken" value="Spaans"/>Spaans   
+            <input type="checkbox" name="keuken" value="Arabisch"/>Arabisch
+        </p>
+        <p>
+            <label>Favoriete schortkleur</label>
+            <input type="color" name="favcolor" value="#000080"/> (Kies hier jouw kleur)
+        </p>
+        <p>
+            <label>Biografie</label>
+            <textarea name="biografie" rows="8" cols="50">
+            Vertel hier wat meer over jezelf.
+            </textarea>
+        </p>
+        <p>
+            <label>Jouw recept</label>
+            <input type="file" name="recept"/>
+        </p>
+        <p>
+            <label>Receptenwebsite</label>
+            <input type="url" name="url" size="50"/> (Geef URL op)
+        </p>
+        <p>
+            <input type="reset" value="Reset" name="resetknop"/>
+            <input type="submit" value="Verzenden" name="verzenden"/>
+        </p>
+    </form>
+    
+    <footer>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Mijn eerste pagina</a></li>
+                <li><a href="About.html">Over mij</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
